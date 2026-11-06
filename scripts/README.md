@@ -1,0 +1,1 @@
+Place benchmark-specific scripts here. The generic runner expects the command to write a JSON object to the file named by `ST2_METRICS_PATH`. Audit replay commands should print one JSON object to stdout, for example `{"metrics":{"accuracy":0.91}}`. Specification checks should exit 0 only when the benchmark rules are satisfied.

@@ -1,0 +1,6 @@
+interface:
+  display_name: "ScientistTwo Research Lab"
+  short_description: "Full-cycle autonomous scientific research workflow"
+  default_prompt: "Run the full ScientistTwo research workflow for the problem in research/problem.md. Check missing inputs before expensive experiments."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "project": "ScientistTwo-Codex Research Lab",
+  "status": "uninitialized",
+  "current_stage": "intake",
+  "created_at": null,
+  "updated_at": null,
+  "problem_file": "research/problem.md",
+  "counters": {
+    "limitation_rounds": 0,
+    "subset_engineering_rounds": 0,
+    "idea_evolution_rounds": 0,
+    "successful_ideas": 0,
+    "ablation_refinement_rounds": 0,
+    "peer_review_rounds": 0,
+    "review_driven_refinement_rounds": 0,
+    "rebuttal_rounds": 0,
+    "audit_rounds": 0
+  },
+  "candidates": [],
+  "experiments": [],
+  "best_candidate_id": null,
+  "gate_history": [],
+  "pending_ablation_refinement": false
+}

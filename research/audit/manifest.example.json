@@ -1,0 +1,64 @@
+{
+  "score_claims": [
+    {
+      "id": "main-primary-metric",
+      "metric": "replace_with_metric_name",
+      "reported_value": 0.0,
+      "replay_command": [
+        "python",
+        "scripts/replay_claim.py"
+      ],
+      "tolerance": 0.0001
+    }
+  ],
+  "specification_checks": [
+    {
+      "id": "benchmark-compliance",
+      "command": [
+        "python",
+        "scripts/check_benchmark_compliance.py"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "ref-001",
+      "title": "Replace with a real cited work",
+      "doi": "10.xxxx/replace-me"
+    },
+    {
+      "id": "ref-002",
+      "title": "Replace with a real arXiv paper",
+      "arxiv_id": "2609.19644"
+    }
+  ],
+  "method_code_mappings": [
+    {
+      "claim": "Describe one material method claim in the paper",
+      "paper_section": "Method / Section X",
+      "code_paths": [
+        "src/your_method.py"
+      ],
+      "evidence_paths": [
+        "research/experiments/replace-with-run-id/metrics.json"
+      ]
+    }
+  ],
+  "agent_attestations": [
+    {
+      "agent": "spec_validator",
+      "status": "PENDING",
+      "report_path": "research/audit/spec-validator.md"
+    },
+    {
+      "agent": "reference_verifier",
+      "status": "PENDING",
+      "report_path": "research/audit/reference-verifier.md"
+    },
+    {
+      "agent": "method_code_auditor",
+      "status": "PENDING",
+      "report_path": "research/audit/method-code-auditor.md"
+    }
+  ]
+}

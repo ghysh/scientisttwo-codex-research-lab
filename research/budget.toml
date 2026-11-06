@@ -1,0 +1,20 @@
+# Paper-reported starting profile from ScientistTwo Appendix A.2.
+# These are reference settings, not universal defaults. Adjust to your compute budget.
+
+[limits]
+reference_papers_for_novelty = 2
+limitation_extraction_max_rounds = 16
+candidates_per_idea_round = 2
+idea_evolution_max_rounds = 4
+early_stop_successful_ideas = 4
+subset_engineering_max_rounds = 2
+ablation_refinement_max_rounds = 1
+peer_review_max_rounds = 2
+peer_review_acceptance_score = 8.0
+review_driven_idea_refinement_max_rounds = 1
+
+[execution]
+max_concurrent_read_only_agents = 8
+max_concurrent_code_writers_per_worktree = 1
+require_human_approval_for_full_benchmark = true
+require_human_approval_for_external_spend = true
